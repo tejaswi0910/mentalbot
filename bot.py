@@ -113,12 +113,3 @@ def get_response(user_input):
     response = check_all_messages(split_message)
     #print(response)
     return response
-
-
-flag = True
-while(flag):
-  user_input = input("Type Here >> ")
-  if(user_input == "exit"):
-    flag = False
-  else:
-    print(get_response(user_input))
